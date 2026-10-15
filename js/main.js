@@ -161,19 +161,23 @@ goBackBtn.addEventListener("click", function() {
 // Job list
 const jobExperiences = [
   {
-    title: "Founder & CEO (for freelancing)",
+    title: "Founder & CEO",
     company: "AIO",
-    place: "Paris",
+    place: "Saint Martin",
     date: "03/2025 - present",
     tasks: [
-      "AI-powered virtual companion assisting elderly users in nursing homes, in their medications schedule, communication with their family, save memories and more. Medical staff can follow the medications schedule registered by the AI assistant of the patients"
+       "AI integration & agent setup",
+       "Workflow automation",
+       "Technical audit",
+       "Custom software & website",
+       "Machine learning & deep learning model"
     ]
   },
   {
     title: "Data Scientist (apprenticeship)",
     company: "BNP Paribas Personal Finance",
     place: "Paris",
-    date: "09/2024 - present",
+    date: "09/2024 - 09/2026",
     tasks: [
       "AI model for predicting when a client is most likely to cancel his insurance or card contract",
       "Data analysis for inclusive finance",
@@ -252,19 +256,19 @@ jobExperiencesUl.innerHTML = jobExperiencesUlContent
 
 const diplomas = [
   {
-    title: 'AI Skills Fest 50 Days Training (ongoing)',
-    school: "Microsoft (remote)",
-    date: "04/2025 - 05/2025",
-  },
-  {
-    title: 'Master of Computer Science - Artificial Intelligence Program (ongoing)',
+    title: 'Master of Computer Science - Artificial Intelligence Major',
     school: "ESGI Paris",
     date: "09/2024 - 09/2026"
   },
   {
+    title: 'AI Skills Fest 50 Days Training',
+    school: "Microsoft (remote)",
+    date: "04/2025 - 05/2025",
+  },
+  {
     title: "Bachelor of Computer Science - Artificial Intelligence Program",
     school: "ESGI Paris",
-    date: "2021 - 2024"
+    date: "09/2021 - 09/2024"
   },
   {
     title: "High School Diploma (specialized in computer science, maths & economics)",
@@ -295,9 +299,9 @@ diplomasUl.innerHTML = diplomasUlContent
 // <---------------------------- P R O J E C T S ----------------------------->
 const personalProjects = [
   {
-    title: "Kuma (work in progress)",
+    title: "Kuma",
     brief: "AI agent that recommends responses to messages by analyzing the conversation history, the sentiment of the talk, the recipient, and the mood selected by the user (humor, flirt, professional, etc.).",
-    date: "03/2025 - present",
+    date: "03/2025 - 05/2025",
     url: "https://github.com/the3neurons/kuma",
   },
   {
@@ -307,9 +311,9 @@ const personalProjects = [
     url: "https://finmood.streamlit.app",
   },
   {
-    title: "Twitch (ongoing)",
+    title: "Twitch",
     brief: "AI development live streams on Twitch, sharing my open-source projects and helping viewers in theirs.",
-    date: "02/2025 - present",
+    date: "02/2025 - 05/2025",
     url: "https://twitch.tv/opixelum",
   },
   {
@@ -364,8 +368,7 @@ const skills = [
   "TensorFlow",
   "Solidity",
   "Pandas",
-  "Spark",
-  "PowerBI",
+  "n8n",
 ]
 
 // Taking container from the DOM
